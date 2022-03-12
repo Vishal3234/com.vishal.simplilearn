@@ -1,0 +1,10 @@
+package modifiers;
+
+public class AccessModifiers {
+	public static void main(String[]args) {
+		System.out.println("Default Access Specifier");
+		defAccessModifiers obj= new defAccessModifiers();
+		obj.display();
+	}
+
+}
